@@ -1,0 +1,107 @@
+body {       
+    background-image: url(../image/beground\ clasik.jpg );
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+}
+
+a {
+    text-decoration:none;
+}
+a:active {
+ color:blue;
+ background-color:black;
+}
+a:hover{
+ color :red;
+ background-color:black;
+}
+a:visited{
+ color :red;
+ background-color:black;
+}
+.container{
+    height : 200px;
+    background-color:green;
+    margin : 50px;
+}
+.bg-cadet {
+    background-color: blue;
+    border-radius: 5px;
+    margin: 20px;
+    height: 90%;
+}
+.menu{
+    border-radius: 50px;
+    background-color: black;
+    margin: 50px;
+}
+.logo{
+    text-align: center;
+}
+.menu ul{
+    background-color: rgb(11, 138, 11);
+    border-radius: 40px;
+    box-shadow: 
+    0 3px 5px -1px rgb(212, 27, 27),
+    0 6px 10px -0px rgb(218, 18, 18), 
+    0 1px 18px -0 rgb(212, 24, 24), 
+}
+.menu li {
+    display: inline-block;
+    border-right:1px solid;
+}
+.menu a {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 10px;
+    letter-spacing: 3px;
+}
+.menu .a:hover {
+    background-color: aqua;
+    color:rgb(0, 131, 7);
+}
+.menu .active {
+    background-color: rgba(6, 53, 124, 0.616);
+    color: rgba(31, 2, 99, 0.678);
+}
+.jumbotron {
+    background-color:rgb(150, 247, 150);
+    border-radius: 5px;
+    border:2px solid;
+}
+.jumbotron h1 {
+    background-color: rgba(163, 131, 250, 0.137);
+    border:0 px;
+    border-radius: solid;
+    padding: 0px 1px;
+}
+.bgraund {
+    border-radius: 0px;
+    background-color: rgb(150, 247, 150);
+    margin:  70px;
+    border-radius: solid; 
+    padding: 10px 50px;
+    float: right;
+}
+}
+.isi-one{
+    padding: 0%;
+    width:  32%;
+    float: right;
+}
+.food {
+    border-radius: 0px;
+    background-color: rgba(248, 248, 248, 0);
+    margin:  80px;
+    border-radius: 50px; 
+    padding: 10px 50px;
+    float: left;
+}
+
+
+}
+.footer-two{
+    padding: 0%;
+    width:  32%;
+    float: right;
+}
